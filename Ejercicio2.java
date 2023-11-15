@@ -6,9 +6,6 @@ numerales y 4 literales: 2, 3, 4, 5, 6, 7, 8, 9, 10, J, Q, K y A (que sería el
 String.valueOf(n). */
 public class Ejercicio2 {
     public static void main(String[] args) {
-        String palo = " ";
-        String carta = " ";
-
 
         int numCarta = (int)(Math.random()*13) + 1; 
 
