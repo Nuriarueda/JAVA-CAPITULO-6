@@ -38,7 +38,7 @@ public class Ejercicio2 {
                 System.out.print("8");
                 break;
             case 9:
-                System.out.print("8");
+                System.out.print("9");
                 break;
             case 10:
                 System.out.print("10");
