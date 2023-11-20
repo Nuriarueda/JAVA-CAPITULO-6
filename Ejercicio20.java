@@ -8,13 +8,13 @@ public class Ejercicio20 {
         int cantidad = (int)(Math.random()*capacidad+1);
         for (int i = capacidad; i >= 1; i--) {
         if (i <= cantidad) {
-            System.out.println("===");
+            System.out.println("*===*");
         } else {
-            System.out.println("   ");
+            System.out.println("*   *");
         }
 
         }
-        System.out.println("**");
+        System.out.println("*****");
         System.out.println("La cuba tiene una capacidad de "+capacidad+" litros y contiene "+cantidad+" litros de agua");
         sc.close();
     }
