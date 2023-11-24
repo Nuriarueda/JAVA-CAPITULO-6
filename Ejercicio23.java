@@ -2,6 +2,41 @@
 Escribe un programa que genere de forma aleatoria la tirada de cinco dados. */
 public class Ejercicio23 {
     public static void main(String[] args) {
-        
+        System.out.println("Lanza dados de poker");
+        for(int i=1;i<=5;i++){
+            int dado= (int)(Math.random()*6+1);        
+            switch (dado) {
+
+                case 1:
+                System.out.print("As - ");
+                
+                break;
+
+                case 2:
+                System.out.print("K - ");
+                
+                break;
+
+                case 3:
+                System.out.print("Q - ");
+                
+                break;
+
+                case 4:
+                System.out.print("J - ");
+                
+                break;
+
+                case 5:
+                System.out.print("8 - ");
+                
+                break;
+
+                case 6:
+                System.out.print("7 - ");
+                
+                break;
+            }
+        }
     }
 }
