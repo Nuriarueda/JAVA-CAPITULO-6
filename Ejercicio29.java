@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Ejercicio29 {
     public static void main(String[] args) {
-        	Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Con este programa haremos la prediccion del tiempo");
         System.out.println("1. Primavera");
         System.out.println("2. Verano");
