@@ -18,13 +18,12 @@ public class Parte1 {
 
     if(num2>=num1){
 
-      do {
-        do{
+      do{
         intervalomax =(int)(Math.random()*(num2-num1+1)+num1);
         intervalomin=(int)(Math.random()*(num2-num1+1)+num1);
       }while(intervalomax <=intervalomin);
-      } while (condition);
-      
+        
+        
       System.out.println("Estoy pensando un numero entre " + intervalomin + " y " + intervalomax );
     }
     sc.close();
