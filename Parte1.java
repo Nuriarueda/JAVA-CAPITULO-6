@@ -13,17 +13,17 @@ public class Parte1 {
     int num2 = Integer.parseInt(sc.nextLine());
     System.out.println("-A-L-E-A-T-O-R-I-U-M");
 
-    int numMin;
-    int numMax;
+    int intervalomin;
+    int intervalomax ;
 
     if(num2>=num1){
 
       do{
-        numMax=(int)(Math.random()*(num2-num1+1)+num1);
-        numMin=(int)(Math.random()*(num2-num1+1)+num1);
-      }while(numMax<=numMin);
+        intervalomax =(int)(Math.random()*(num2-num1+1)+num1);
+        intervalomin=(int)(Math.random()*(num2-num1+1)+num1);
+      }while(intervalomax <=intervalomin);
 
-      System.out.println("Estoy pensando un numero entre " + numMin + " y " + numMax);
+      System.out.println("Estoy pensando un numero entre " + intervalomin + " y " + intervalomax );
     }
     sc.close();
   }
