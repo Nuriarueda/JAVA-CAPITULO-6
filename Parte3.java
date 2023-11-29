@@ -43,7 +43,7 @@ public class Parte3 {
 
                 numIntentos++;
 
-                if (numIntentos <= intentos) {
+                if (numIntentos < intentos) {
                         
                     if(numIntroducido>numCorrecto){
                         System.out.println("Te has pasado");
